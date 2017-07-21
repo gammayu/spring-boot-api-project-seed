@@ -1,6 +1,5 @@
 package com.company.project.configurer;
 
-
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.alibaba.fastjson.support.config.FastJsonConfig;
@@ -55,7 +54,6 @@ public class WebMvcConfigurer extends WebMvcConfigurerAdapter {
         converter.setDefaultCharset(Charset.forName("UTF-8"));
         converters.add(converter);
     }
-
 
     //统一异常处理
     @Override
